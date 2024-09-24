@@ -49,7 +49,7 @@ function describeTemperature(f) {
  */
 function getRandomInt(limit) {
   // TODO
-  return Math.random() * limit;
+  return Math.round(Math.random()) * limit;
 }
 
 // -------------------- DO NOT CHANGE THE CODE BELOW ---------------------- //
